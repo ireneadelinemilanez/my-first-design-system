@@ -36,6 +36,9 @@
   --font-size-base: 1rem;     /* 16px */
   --font-size-lg: 1.125rem;   /* 18px */
   --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px — section headers (h3) */
+  --font-size-3xl: 1.75rem;   /* 28px — article subheads (h2) */
+  --font-size-4xl: 2.75rem;   /* 44px — article headlines (h1) */
 
   /* Line Heights */
   --leading-tight: 1.15;
@@ -100,16 +103,16 @@ h6 {
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: var(--font-size-4xl);
   font-weight: 400;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: var(--font-size-3xl);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: var(--font-size-2xl);
 }
 
 p {
